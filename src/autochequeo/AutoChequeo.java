@@ -16,9 +16,15 @@ public class AutoChequeo {
      */
     public static void main(String[] args) {
         AutoValue_Persona p= new AutoValue_Persona("h","b",1900);
+        Empleado e =new Empleado();
+         Empleado e1 =new Empleado();
+        e.Create(null, null, 1900);
         
-        Empleado.create(null, null, 1900);
+        Empleado.create("hugo", "ber", 1900);
         Persona.create("h","b",1900);
+        
+        
+        
     }
     
 }

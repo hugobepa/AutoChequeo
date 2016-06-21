@@ -11,7 +11,10 @@ package autochequeo;
  */
 public class Empleado extends Persona {
 
-  
+    public Empleado() {
+    }
+
+      
 
     
     
@@ -33,5 +36,7 @@ public class Empleado extends Persona {
     long birthYear() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    
     
 }

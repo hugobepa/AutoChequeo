@@ -19,11 +19,19 @@ public abstract class Persona {
     * @param birthYear Birth year of person.
     * @return Instance of Person.
     */
+    
    static Persona create(String lastName, String firstName, long birthYear)
    {
       return new AutoValue_Persona(lastName, firstName, birthYear);
    }
-
+    
+   
+   public Persona Create(String lastName, String firstName, long birthYear)
+   {
+      return new AutoValue_Persona(lastName, firstName, birthYear);
+   }
+   
+   
    /**
     * Provide Person's last name.
     *
